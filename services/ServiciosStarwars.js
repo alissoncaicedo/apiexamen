@@ -6,7 +6,7 @@ export const getfilms = async () =>{
     return datos
 }
 
-export const getspacies = async () =>{
+export const getspecies = async () =>{
     const url = 'https://swapi.dev/api/species/'
     const peticion = await fetch(url)
     const datos = await peticion.json()
